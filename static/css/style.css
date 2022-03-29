@@ -1,0 +1,160 @@
+/*
+Common
+*********************/
+
+html,
+body {
+    height: 100;
+}
+.content {
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: whitesmoke;
+  }
+.heading{
+    display: flex;
+   padding: 10px;
+    border: 1px solid #ccc;
+}
+img.tlogo{
+    width: 7%;
+}
+.heading h1{
+    padding-left: 20px;
+}
+
+/*
+Post
+*********************/
+
+.post_form {
+    padding: 20px 40px;
+    border-bottom: 1px solid  #ccc;
+}
+textarea#texta{
+    height: 150px;
+}
+.post_form  input {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+input#tweet{
+    width: 20%;
+    border-radius: 6px;
+    border: 0;
+    background-color: grey;
+}
+
+input#myFile {
+    width: 45%;
+    background-color: whitesmoke;
+    color: gray;
+    border: 0;
+    padding-top: 20px;
+
+}
+
+
+#edit-file{
+    border: hidden;
+    width: 50%;
+    padding-top: 20px;
+}
+.post_form textarea  {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.posts ul {
+    padding: 0;
+}
+
+.posts li {
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid  #ccc;
+    padding: 20px 40px;
+    position: relative;
+    list-style: none;
+
+}
+
+.posts li .menu_icon {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px;
+}
+
+.posts li .menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 15px;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+
+}
+
+
+.posts li .menu a {
+    text-decoration: none;
+}
+
+
+
+.post li .logo  {
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top: 18px
+}
+
+.posts li .logo {
+    flex-basis: 15%;
+}
+
+.posts li .logo img {
+    width: 60%;
+}
+
+.posts li .name_body {
+    flex-basis: 85%;
+}
+
+.posts li .name_body .name {
+    font-weight: bold;
+}
+
+.posts li .name_body .datatime {
+    color: gray;
+
+}
+
+#cancel{
+    text-decoration: none;
+    border: 1px solid;
+    padding: 9px;
+    background-color: gray;
+    color: #ccc;
+    border-radius: 10px;
+}
+
+#update{
+    width: 22%;
+    background-color: black;
+    color: #ccc;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .posts li .name_body .name{
+        font-size: 20px;
+    }
+}
